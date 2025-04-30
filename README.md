@@ -4,9 +4,25 @@
 
 First, install docker and openjdk-17-jdk if you wanna  run buildDocApp.sh
 
-Next give permissons for script.
+Next, give permissions to the script buildAppDoc.sh
 
 ```
 chmod +x ./buildAppDoc.sh
 ```
-Let`s run!
+
+Go to the app directory and give permissions to gradlew.
+
+```
+chmod +x ./gradlew
+```
+
+Go back and run script.
+
+```
+chmod +x ./buildAppDoc.sh
+```
+
+## Visit address
+```
+http://localhost:<your_port>/sample.html
+```
