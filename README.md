@@ -19,10 +19,12 @@ chmod +x ./gradlew
 Go back and run script.
 
 ```
-chmod +x ./buildAppDoc.sh
+./buildAppDoc.sh
 ```
 
 ## Visit address
 ```
-http://localhost:<your_port>/sample.html
+http://localhost:<your_port>
 ```
+
+![alt text](show.jpg)
