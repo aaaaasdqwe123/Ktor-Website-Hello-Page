@@ -55,4 +55,4 @@ fi
 echo "Starting application on port $PORT..."
 docker build -t my-app . && \
 docker run -d --rm -p $PORT:3000 --name my-app-container my-app && \
-echo "Application running on port $PORT (container port 3000)"
+echo "Application running on port $PORT"
