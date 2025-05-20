@@ -10,7 +10,7 @@ import java.io.File
 
 fun Application.configureRouting() {
     routing {
-        staticResources("/", "mycontent")
+        staticResources("/", "static")
 
     }
 
